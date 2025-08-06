@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: some-service
-  description: Description of the service
-  tags:
-    - nodejs
-    - web
+  name: user-service
+  description: REST API for managing users in the system
+  annotations:
+    github.com/project-slug: pritamshende/user-service
 spec:
   type: service
+  owner: pritamshende
   lifecycle: production
-  owner: team-name
+
 
 
 
