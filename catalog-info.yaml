@@ -1,9 +1,27 @@
-apiVersion: backstage.io/v1beta1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: user-service
-  description: This is the user service
+  name: some-service
+  description: Description of the service
+  tags:
+    - nodejs
+    - web
 spec:
   type: service
   lifecycle: production
-  owner: guests
+  owner: team-name
+
+
+
+
+
+
+# apiVersion: backstage.io/v1beta1
+# kind: Component
+# metadata:
+#   name: user-service
+#   description: This is the user service
+# spec:
+#   type: service
+#   lifecycle: production
+#   owner: guests
